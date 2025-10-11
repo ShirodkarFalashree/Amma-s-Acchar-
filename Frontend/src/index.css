@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+
+body {
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .font-logo {
+      font-family: "Caveat", cursive;
+
+  }
+  .font-special {
+      font-family: "Kalam", cursive;
+
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 50s linear infinite;
+  }
+}
