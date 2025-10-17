@@ -3,7 +3,7 @@ import axios from 'axios'; // We'll use axios for cleaner API calls
 import { X } from 'lucide-react'; // Icon library (assuming you have it or use simple text)
 
 // Define your base API URL
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://amma-s-acchar.onrender.com";
 
 const BuyNowModal = ({ product, selectedQuantity, onClose }) => {
   const [formData, setFormData] = useState({

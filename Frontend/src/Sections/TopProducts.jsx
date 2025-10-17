@@ -4,7 +4,7 @@ import axios from 'axios';
 // import pickleData from '../data/productDetails.js'; // ❌ REMOVE: No longer needed
 import { Loader } from 'lucide-react';
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://amma-s-acchar.onrender.com";
 
 const TopRated = () => {
   const navigate = useNavigate(); // Initialize useNavigate

@@ -5,7 +5,7 @@ import { Plus, Loader, LogOut, Package, Trash2, CheckCircle } from 'lucide-react
 import AddAcharModal from '../components/AddAcharModal';
 import DeleteConfirmModal from '../components/DeleteOrderModal';
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://amma-s-acchar.onrender.com";
 
 const Admin = () => {
   const navigate = useNavigate();

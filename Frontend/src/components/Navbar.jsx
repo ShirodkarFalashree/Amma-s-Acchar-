@@ -5,7 +5,7 @@ import { ShoppingCart, Menu, X, Package } from "lucide-react"; // Added Package 
 import axios from "axios";
 
 // Define base URL for clarity and easy maintenance
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://amma-s-acchar.onrender.com";
 
 const Navbar = () => {
   // Renaming 'showCart' to 'showOrderLookup' for better clarity

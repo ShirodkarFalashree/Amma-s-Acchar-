@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom"; // 👈 Import useNav
 import axios from 'axios';
 import BuyNowModal from "../components/BuyNowModal";
 
-const API_BASE_URL = "http://localhost:3000"; 
+const API_BASE_URL = "https://amma-s-acchar.onrender.com"; 
 
 const ProductDetails = () => {
   const { id } = useParams(); 

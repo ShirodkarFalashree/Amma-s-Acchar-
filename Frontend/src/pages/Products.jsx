@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // import pickleData from "../data/productDetails.js"; // ❌ REMOVE: No longer needed
 
 // Define your base API URL
-const API_BASE_URL = "http://localhost:3000"; // Adjust port if necessary
+const API_BASE_URL = "https://amma-s-acchar.onrender.com"; // Adjust port if necessary
 
 const Products = () => {
   const navigate = useNavigate();

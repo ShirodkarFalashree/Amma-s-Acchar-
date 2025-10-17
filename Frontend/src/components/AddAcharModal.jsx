@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { X, Image, PlusCircle } from 'lucide-react'; 
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://amma-s-acchar.onrender.com";
 
 const InputField = React.memo(({ name, placeholder, type = 'text', step = null, required = false, value, onChange, disabled }) => (
     <input
