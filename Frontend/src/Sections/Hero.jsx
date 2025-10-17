@@ -223,10 +223,11 @@ const Hero = () => {
             to="/products"
             className="
               bg-yellow-500 text-white 
-              px-5 sm:px-6 py-2.5 sm:py-3 
+              px-5 sm:px-4 py-2.5 sm:py-3 
               rounded-xl font-semibold 
               shadow-md hover:bg-yellow-600 transition
-              text-center
+              text-center 
+
             "
           >
             View All Products
